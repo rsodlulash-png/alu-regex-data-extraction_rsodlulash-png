@@ -1,0 +1,86 @@
+ALU FACILITATOR SUPPORT API - DAILY DATA EXPORT
+Generated: 2026-08-21 09:14:32
+
+Facilitator support records received from multiple ALU services.
+
+SUPPORT CASE #ALU-FAC-20491
+Facilitator: Naledi Mokoena
+Email: n.mokoena@alueducation.com
+Alternative email: n.mokoena@gmail.com
+Phone: +250 788 421 936
+Backup phone: +27 (71) 234-9087
+Facilitator profile: https://www.alueducation.com/facilitators/naledi-mokoena
+
+SUPPORT CASE #ALU-FAC-20492
+Facilitator: Thabo Molefe
+Email: t.molefe@alumni.alueducation.com
+Phone: +250-783-555-219
+Alumni facilitator profile:
+https://alumni.alueducation.com/facilitators/thabo-molefe
+
+SUPPORT CASE #ALU-FAC-20493
+Facilitator: Aisha Kamanzi
+Email: a.kamanzi@si.alueducation.com
+Phone: 0788 654 321
+SI facilitator information:
+https://si.alueducation.com/facilitators/aisha-kamanzi
+
+FACILITATOR FINANCE RECORD
+Training support payment reference: 4111 1111 1111 1111
+Backup payment reference: 5500-0000-0000-0004
+
+Facilitator training allowance: RWF 250,000.
+Monthly support budget: RWF 350,000.
+Professional development allocation: USD 1,500.00.
+Workshop reimbursement: $1,250.50.
+Travel reimbursement: €850.75.
+Annual facilitator grant: £2,000.
+Regional support allocation: KSh 45,000.
+
+MISCELLANEOUS FACILITATOR DATA
+Contact the facilitator support team at
+support@example.com.
+
+The facilitator resources portal is available at:
+https://www.example.org/help/facilitators
+
+For technical assistance, facilitators can submit a support
+request through the online portal.
+
+Some records below are malformed and must NOT be accepted:
+
+bad-email@@example.com
+wrong-email@.com
+another-invalid-email@
+facilitator@alueducation
+@alueducation.com
+
+12345
++250
++27
+
+https://
+http://
+www.invalid-url
+
+4111-1111-1111
+1234 5678 9012 3456
+
+RWF abc
+USD
+$hello
+€xyz
+
+SECURITY TEST DATA
+<script>alert("test")</script>
+<img src="javascript:alert('xss')">
+
+DROP TABLE facilitators;
+DROP TABLE support_cases;
+
+' OR '1'='1
+"; DELETE FROM facilitators;
+
+The system should treat all incoming API data as untrusted input.
+No extracted content should be executed as code or database commands.
+
