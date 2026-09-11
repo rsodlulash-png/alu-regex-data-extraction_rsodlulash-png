@@ -1,0 +1,49 @@
+{
+    "emails": [
+        {
+            "email": "n.mokoena@alueducation.com",
+            "type": "ALU official"
+        },
+        {
+            "email": "t.molefe@alumni.alueducation.com",
+            "type": "ALU alumni"
+        },
+        {
+            "email": "a.kamanzi@si.alueducation.com",
+            "type": "ALU SI"
+        }
+    ],
+    "urls": [
+        "https://www.alueducation.com/facilitators/naledi-mokoena",
+        "https://alumni.alueducation.com/facilitators/thabo-molefe",
+        "https://si.alueducation.com/facilitators/aisha-kamanzi",
+        "https://www.example.org/help/facilitators"
+    ],
+    "phone_numbers": [
+        "2026-08-21 09",
+        "+250 788 421 936",
+        "+250-783-555-219",
+        "0788 654 321",
+        "4111 1111 1111 1111",
+        "5500-0000-0000-0004",
+        "4111-1111-1111\n1234",
+        "5678 9012 3456"
+    ],
+    "credit_cards": [
+        {
+            "masked": "************1111"
+        },
+        {
+            "masked": "************0004"
+        }
+    ],
+    "currency_amounts": [
+        "RWF 250,000",
+        "RWF 350,000",
+        "USD 1,500.00",
+        "$1,250.50",
+        "\u20ac850.75",
+        "\u00a32,000",
+        "KSh 45,000"
+    ]
+}
